@@ -1,0 +1,47 @@
+{
+    "probableDiagnosis": {
+        "probableDiseases": [
+            {
+                "disease": "Corona",
+                "extraSymptoms": [
+                    {
+                        "id": 4,
+                        "symptom": "diarrhoea",
+                        "type": "Common"
+                    }
+                ]
+            },
+            {
+                "disease": "Viral Fever",
+                "extraSymptoms": []
+            }
+        ],
+        "userId": 4
+    },
+    "Common": [
+        "sore throat",
+        "fever",
+        "running nose",
+        "diarrhoea"
+    ],
+    "diagnose": {
+        "disease": "Viral Fever",
+        "reports": [],
+        "medicines": [
+            {
+                "id": 1,
+                "name": "Paracetamol 650",
+                "dosageQuantity": "1 Tab",
+                "dosageSchedule": "BDPC"
+            },
+            {
+                "id": 2,
+                "name": "azithromycin",
+                "dosageQuantity": "1 Tab",
+                "dosageSchedule": "OD"
+            }
+        ],
+        "reportLink": "f611f0bd-ba2",
+        "reportPassword": "c17351db0e2"
+    }
+}

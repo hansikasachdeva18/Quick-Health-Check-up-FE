@@ -1,0 +1,14 @@
+{
+  "extends": [],
+  "rules": {
+    "import/no-unresolved": "off",
+    "import/named": 2,
+    "import/namespace": 2,
+    "import/default": 2,
+    "import/export": 2,
+    "react/prop-types": 0,
+    "no-console": "warn",
+    "react-hooks/rules-of-hooks": "warn", // Checks rules of Hooks
+    "react-hooks/exhaustive-deps": "off" // Checks effect dependencies
+  }
+}
